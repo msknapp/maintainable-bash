@@ -1,0 +1,7 @@
+
+* Turn colors on in vi
+  - vi ~/.vimrc
+  - syntax on
+  - syntax off
+20. Use an IDE with color/context highlighting.  Intellij with plugin, or vi with colors on.
+  - intellij has a bash plugin.

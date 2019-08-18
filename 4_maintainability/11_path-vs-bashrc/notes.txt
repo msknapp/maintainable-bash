@@ -1,0 +1,19 @@
+
+19. Prefer functions over aliases.
+    - aliases can't be used in scripts and functions.
+    - not available to other people on your system.
+    - requires repeatedly sourcing .bashrc or .bash_profile.
+
+18. Use .bashrc or .bash_profile for functions that must alter your global environment variables.
+    - otherwise put a command on the common path, /usr/local/bin
+
+17. Prefer placing commands onto the common path instead of placing them into .bashrc or .bash_profile.
+
+* anti-pattern: sourcing other scripts instead of putting them on the path.
+  - if the script moves, your code silently breaks.
+  - can mess with global env variables.
+
+* anti-pattern: Not putting scripts on your path.
+  - constantly needing to source.
+  - confused about why things are not working, why your updates are not happening.
+  - much easier for one script to call on others.

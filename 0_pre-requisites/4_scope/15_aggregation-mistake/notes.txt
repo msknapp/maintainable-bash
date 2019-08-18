@@ -1,0 +1,3 @@
+
+Common Anti-Patterns:
+* Trying to count something, but it's in a sub-shell because you used a pipe.

@@ -1,0 +1,9 @@
+
+* return text without worrying about escaping quotes or back slashes: here documents.
+* regex matching
+* Short method of if then
+* cat vs $(< file)
+
+* Excessive use of if-then-fi
+* repeated use of elif instead of a case statement.
+* anti-pattern excessive use of sudo.

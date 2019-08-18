@@ -1,0 +1,11 @@
+
+3.  Use named parameters everywhere, avoid positional parameters.
+
+* Having a parent function that routes to sub-functions.
+* accepting multiple values for a parameter
+* filters depending on an argument.
+
+* anti-pattern: hard coding values
+* anti-pattern: Using global variables and export to pass around arguments.
+* anti-pattern: Not putting quotes around variables.
+* anti-pattern: Using positional parameters instead of named ones.

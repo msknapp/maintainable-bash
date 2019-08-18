@@ -1,0 +1,8 @@
+
+General Advise:
+* Not knowing about CLI commands and/or their options.
+* Not switching to a higher language for complicated things.
+* lack of comments and/or documentation.
+* The only thing worse than "code without documentation" is "documentation without code".  All too often I see
+confluent pages that have command line
+16. Strongly prefer to automate and script everything.

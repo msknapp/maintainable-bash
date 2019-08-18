@@ -1,0 +1,6 @@
+
+x.  Make your code readable using aliases (functions) like "function keep_rows_containing { grep; }"
+21. Avoid having too much code in one file.
+24. Prefer to use long-named commands and parameters for readability by peers.  It also depends
+    less on your memory.
+* Code Lines that are very long instead of using \ and wrapping them.

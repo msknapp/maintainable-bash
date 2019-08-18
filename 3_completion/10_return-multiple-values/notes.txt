@@ -1,0 +1,2 @@
+
+11. If you want a function to return multiple values or an object, just return a json document as text.

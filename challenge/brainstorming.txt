@@ -1,0 +1,42 @@
+
+Easy:
+- print only the first two lines of a given file
+- print everything except the first two lines of a given file.
+- print only the last three lines of a given file
+- print everything except the last three lines of a given file.
+- print only lines in a file if they contain the word "date"
+- print the contents of a file but with no new lines, replace new lines with single spaces.
+- print the contents of a file but replace the word "date" with "time".
+- print the contents of a file but with no blank lines.
+- list only the directories in the current directory.
+- write a command that succeeds if it is run in the afternoon/evening.
+
+Medium:
+- print all environment variables that contain USER, as a JSON document.
+- in a directory, print the top ten files by their size, in descending order by size.  The output
+  can have <file_size> <file> in each line.  Include headers and have the output formatted nice so the columns line up.
+
+Difficult:
+* recursively find all files that are over two weeks old
+* Given some json, print out just a certain field.
+* Create a git repo that your co-workers can install easily with one command that's found in its readme.
+  After installation, they should be able to run all the bash commands from the git repo, without needing to source
+  anything.  Hint: one method is to have the command download an installer script and then immediately run it.
+
+Kubernetes:
+- find all services that don't match any pods
+- find all ingresses whose service does not exist
+- list all pods that are not running
+- given a pod name, find all services that match it.
+- given a tls secret in K8s, produce tls.key and tls.crt files.
+- print all pods along with their resource requests and limits.
+- print all persistent volumes whose backing volume does not exist.
+- delete all replica sets with desired size of zero.
+- find all pods with a mounted volume that is over 80% full.
+
+AWS:
+- print all ELBs that don't have any route53 record set pointing to them.
+- print all cloudwatch alarms that have not received data for over a week.
+- find all route53 records that point to an ELB that does not exist.
+- find all cloudwatch alarms that have a given action
+- list all ec2 instances with a given tag.

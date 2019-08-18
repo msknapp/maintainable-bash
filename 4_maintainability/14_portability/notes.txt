@@ -1,0 +1,7 @@
+
+* Writing code that only works on your computer, or only one computer (like a build server).
+* not supporting multiple operating systems.
+  - sed -i takes an arg on mac
+  - netstat uses different arguments on a mac
+  - use $(uname)
+  - tar extraction produces backup files on a mac.

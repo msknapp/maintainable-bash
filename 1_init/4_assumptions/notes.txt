@@ -1,0 +1,6 @@
+
+13. Check your assumptions in the code.  Exit early if they are not met.
+    - confirm that arguments are all set.  Assign defaults where possible.  Exit early if
+      a value is mandatory and there is no default.
+    - confirm that software is installed using which.
+    - Confirm that files exist beforehand.

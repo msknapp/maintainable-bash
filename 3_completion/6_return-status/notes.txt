@@ -1,0 +1,7 @@
+
+9.  Use return to deliver status of your function.
+10. Prefer to check the return status of functions you call.
+* Check if a function was successful.
+* Anti-pattern: Excessive use of $?
+* Anti-pattern: Not checking if a command worked.
+* Anti-pattern: Excessively using wc -l in if statements.

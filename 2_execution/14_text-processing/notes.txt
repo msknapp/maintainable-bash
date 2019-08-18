@@ -1,0 +1,35 @@
+
+* format json
+  - jq '.'
+  - python -m 'json.tool'
+* Using jq to select a few columns.
+  -
+* Using cut
+* joining strings into one.
+* remove quotes from text.
+  - tr -d '"' <<< $text
+* cat <file> | or echo <text> |
+  - echo will remove new lines, cat won't
+* Using awk to select one column.
+  - awk '{print $2}'
+* Removing blank lines in results.
+  - grep -vE '^\s*$' <<< "$results"
+* Select a sub-string
+
+* Process one line at a time, not one word/token at a time.
+  - while read line; do { ... } done
+
+
+* anti-pattern: Not formatting output
+  - use printf
+* anti-pattern: picket fences in sed.
+  - use a different delimiter:
+  - set 's|http://|https://|g' <<< "$text"
+* anti-pattern: Using echo on repeated lines instead of a here document.
+  - use a here document:
+  cat << EOF
+interpreted text $(whoami)
+EOF
+  cat << "EOF"
+uninterpreted text written by $(whoami)
+EOF

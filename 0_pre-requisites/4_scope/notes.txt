@@ -1,0 +1,25 @@
+* avoid using export unless necessary
+* prefer to use local.
+
+2.  Limit use of export and global environment variables.
+* Not using local for variables
+
+Sub-Processes:
+- Sub-shells:
+  - pipes
+  - parentheses
+  - invoking bash (from within bash)
+  - executing other scripts found on your PATH
+- Other:
+  - invoking other programs
+Runs in current process:
+- using . or source on another bash script
+- invoking functions
+
+Variable Scope
+
+export makes variables visible to the current shell/program and all sub-processes/shells.
+local means a variable will not be visible once the current function ends.
+With neither export nor local, any variable that is set is visible throughout
+the current process, even if the current function ends, but is not visible to sub or parent
+processes.

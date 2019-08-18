@@ -1,0 +1,10 @@
+
+Security:
+* chmod 777
+  - use 775, don't allow anonymous writes.
+* Avoiding passwords in scripts.
+  - anti-pattern: passwords in code.
+  - write it to a file:
+  - echo -n "mypassword" > $HOME/.password
+  - local password=$(<$HOME/.password)
+  - use vault.

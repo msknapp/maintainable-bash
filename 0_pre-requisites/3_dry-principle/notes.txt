@@ -1,0 +1,9 @@
+
+1.  Encapsulate code in functions.  This helps isolate it so you have more reliable results.
+    - use #!/usr/bin/env bash
+    - check bash version (supports arrays?)
+
+* Anti-pattern: Not using functions.
+* Anti-pattern: redundant code, instead of making functions.
+* Anti-pattern: copying/pasting instead of re-using code.
+* Anti-pattern: Not designing code to let people manually run individual pieces.

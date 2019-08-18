@@ -1,0 +1,4 @@
+
+4.  Add a help parameter to every function.
+12. Help documents should declare assumptions and pre-conditions.
+14. Avoid prompting for input.

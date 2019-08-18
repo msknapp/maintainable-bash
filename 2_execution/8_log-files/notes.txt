@@ -1,0 +1,10 @@
+
+6.  Avoid specifying a log file in functions, let higher level functions decide on that.
+    Instead, make use of std out and err.
+7.  Use std out to return values.  If your function does not return a value, then you may use
+    std out as your log.
+
+8.  Use std err as a log.
+
+* printing to standard error.
+* anti-pattern: commands that write out to a log file.

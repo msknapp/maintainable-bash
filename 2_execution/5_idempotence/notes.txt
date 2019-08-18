@@ -1,0 +1,2 @@
+
+22. Make code idempotent as much as possible.

@@ -1,0 +1,3 @@
+
+15. Use default values, or lookup values, if the user did not provide them.  Fall back to
+    using environment variables as a last resort.

@@ -1,0 +1,4 @@
+
+5.  Add a --debug, --dry-run, --verbose, --source, etc. to each function.
+    * anti-pattern: Not designing code to be easier to test and debug.
+use set -x
